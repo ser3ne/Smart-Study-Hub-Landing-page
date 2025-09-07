@@ -1,11 +1,15 @@
 :root {
   --nav-anchor-txt-size: 2rem;
+
   --hero-txt-size: 7rem;
   --hero-subtext-size: 2rem;
+
   --section-header-size: 3rem;
   --section-subheader-size: 1.4rem;
+
   --card-header-size: 1.5rem;
   --card-text-size: 1rem;
+
   --contact-btn-txt-size: 3rem;
   --copyright-text-size: 2.5rem;
 
@@ -424,6 +428,80 @@ hr {
     width: 35%;
   }
 
+}
 
+@media (min-width: 768px) {
+  :root {
+    --nav-anchor-text-size: 1.7rem;
+    --hero-text-size: 5.7rem;
+    --hero-subtext-size: 1.7em;
+
+    --section-header-size: 2.5rem;
+    --section-subheader-size: 0.9rem;
+    --contact-btn-txt-size: 1.4rem;
+
+    --copyright-text-size: 1.1rem;
+  }
+
+  #hero {
+    height: 50vh;
+  }
+
+  .hero-header {
+    width: 100%;
+  }
+
+  .hero-subheader {
+    width: 100%;
+  }
+
+  .nav-logo {
+    width: 10%;
+  }
+
+  /* ABOUT  */
+
+  #about {
+    height: 50vh;
+  }
+
+  .about-header {
+    padding-top: 5%;
+  }
+
+  .about-description {
+    width: 100%;
+  }
+
+  .about-img-container {
+    /* display: inline-block; */
+    display: none;
+  }
+
+  /* FEATURES  */
+
+  #features {
+    height: 175vh;
+    padding-bottom: 10%;
+  }
+
+  .features-header {
+    padding-top: 10%;
+  }
+
+  .card-container {
+    flex-direction: column;
+    height: 80%;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  /* FOOTER */
+  footer .contact-button {
+    height: 15%;
+    width: 35%;
+  }
 
 }
