@@ -1,0 +1,43 @@
+:root {
+  --primary-dark: #111827;
+  --primary-regular: #1E3A8A;
+  --primary-light: #3B82F6;
+  --base-white: #F9FAFB;
+  --base-green: #10B981;
+  --basse-yellow: #FACC15;
+}
+
+
+.box-sd {
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.4);
+}
+
+.text-sd {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.cta-button:hover {
+  background-color: #F9FAFB;
+  color: #3B82F6;
+  outline: 5px solid #3B82F6;
+  transform: scale(1.01);
+}
+
+.contact-button:hover {
+  background-color: #F9FAFB;
+  color: var(--primary-light);
+  outline: 5px solid var(--primary-light);
+  /* transform: scale(1.01); */
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25);
+}
+
+/* 
+sm: 480
+md: 768
+lg: 1279
+xl: 1400
+*/
